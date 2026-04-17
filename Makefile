@@ -1,4 +1,4 @@
 build :
-	go build o app
+	go build -o app
 run :
 	./app
