@@ -34,4 +34,5 @@ go.work.sum
 # Go build output
 app
 #log files
+
 *.log
