@@ -7,28 +7,25 @@ jobs :
   build:
     runs-on: ubuntu-latest
     steps:
-      # 1. Checkout code
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      # 2. Set up Go
       - name: Set up Go
         uses: actions/setup-go@v5
         with:
           go-version: 'stable'
 
-      # 3. Verify Go installation
       - name: Check Go version
         run: go version
 
-      # 4. Download dependencies
+
       - name: Download dependencies
         run: go mod tidy
 
-      # 5. Build the project
+
       - name: Build
         run: go build -v ./...
 
-      # 6. Run tests (even if none exist)
+
       - name: Run tests
         run: go test ./...
