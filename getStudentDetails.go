@@ -12,7 +12,7 @@ func getStudentDetails() []student {
 		{2, "Priya", 75},
 		{3, "Arjun", 68},
 		{4, "Vikram", 85},
-		{5, "Shyam", 60},
+		{5, "Shyam", 59},
 		{6, "Teja", 98},
 	}
 	return students
