@@ -9,7 +9,7 @@ type student struct {
 func getStudentDetails() []student {
 	students := []student{
 		{1, "Sarayu", 94},
-		{2, "Priya", 77},
+		{2, "Priya", 78},
 		{3, "Arjun", 68},
 		{4, "Vikram", 85},
 		{5, "Shyam", 60},
