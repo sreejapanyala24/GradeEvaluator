@@ -9,3 +9,11 @@
 2026-04-21 12:00:06 [INFO] No files older than 3 days
 2026-04-21 12:01:03 [INFO] Running cleanup cycle...
 2026-04-21 12:01:03 [INFO] No files older than 3 days
+2026-04-21 13:34:26 [INFO]    Input validation successful.
+2026-04-21 13:34:26 [INFO]    Starting cycle | dir = './logs' threshold = 3d
+2026-04-21 13:34:26 [INFO]    No stale files found.
+2026-04-21 13:34:26 [INFO]    Sleeping for 60 seconds...
+2026-04-21 13:35:23 [INFO]    Starting cycle | dir = './logs' threshold = 3d
+2026-04-21 13:35:23 [INFO]    No stale files found.
+2026-04-21 13:35:23 [INFO]    Sleeping for 60 seconds...
+2026-04-21 13:36:09 [INFO]    Script stopped by user.
